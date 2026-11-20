@@ -34,7 +34,7 @@
 		<SelfContained>true</SelfContained>
 		<AppxPackageSigningEnabled>false</AppxPackageSigningEnabled>
 
-		<Version>2.0.0.9</Version>
+		<Version>2.0.0.10</Version>
 
 		<!-- 鏁欒偛鍒嗘敮鐗堝紑鍏筹紙鏋勫缓鏃朵紶 -p:EducationBuild=true锛?-->
 		<EducationBuild Condition="'$(EducationBuild)' == ''">true</EducationBuild>
@@ -42,7 +42,7 @@
 
 	<PropertyGroup Condition="'$(EducationBuild)' == 'true'">
 		<DefineConstants>$(DefineConstants);EDUCATION</DefineConstants>
-		<Version>2.1.0.6</Version>
+		<Version>2.1.0.7</Version>
 	</PropertyGroup>
 
 	<!-- ============================================================
